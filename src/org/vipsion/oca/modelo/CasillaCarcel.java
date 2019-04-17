@@ -6,13 +6,18 @@
 package org.vipsion.oca.modelo;
 
 /**
- *comentario desde el GITHUB
+ *
  * @author pisko
  */
-public class CasillaPuente extends Casilla{
+public class CasillaCarcel extends Casilla{
     
-    public CasillaPuente(int posicion) {
+    public CasillaCarcel(int posicion) {
         super(posicion);
     }
     
+        public void posaFicha(Ficha ficha) {
+            int turnosextra=-3;
+        ficha.setPosicion(turnosextra);
+    }
+        
 }

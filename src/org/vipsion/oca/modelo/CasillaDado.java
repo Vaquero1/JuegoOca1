@@ -9,9 +9,9 @@ package org.vipsion.oca.modelo;
  *
  * @author pisko
  */
-public class Dado1  extends Casilla{
+public class CasillaDado  extends Casilla{
     
-    public Dado1(int posicion) {
+    public CasillaDado(int posicion) {
         super(posicion);
     }
     
