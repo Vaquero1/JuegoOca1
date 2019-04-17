@@ -6,7 +6,7 @@
 package org.vipsion.oca.modelo;
 
 /**
- *
+ *comentario desde el GITHUB
  * @author pisko
  */
 public class CasillaPuente {
