@@ -9,17 +9,15 @@ package org.vipsion.oca.modelo;
  *
  * @author pisko
  */
-public class CasillaDado  extends Casilla{
+public class Dado1  extends Casilla{
     
-    private int turnoextra;
-    public CasillaDado(int posicion) {
+    public Dado1(int posicion) {
         super(posicion);
     }
     
    @Override
    public void posaFicha(Ficha ficha) {
-        turnoextra=1;
-        ficha.setTurnosExtra(turnoextra);
+        
     }
    
    public int getPosicion(){
