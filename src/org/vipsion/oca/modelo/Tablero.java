@@ -45,7 +45,11 @@ public class Tablero {
         casillas.set(52, new Dado1(56));
         casillas.set(57, new CasillaCalavera(58));
         casillas.set(18, new CasillaPosada(19));
-    }
+        casillas.set(5, new CasillaPuente(6));
+        casillas.set(11, new CasillaPuente(12));
+        casillas.set(18, new CasillaCalavera(19));
+        casillas.set(51, new CasillaCalavera(52));
+          }
 
     /**
      *Se encarga de actualizar la posición de una Ficha sumando su posición actual más el número del dado.<br>
