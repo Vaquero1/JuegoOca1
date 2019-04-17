@@ -44,6 +44,7 @@ public class Tablero {
         casillas.set(25, new Dado1(26));
         casillas.set(52, new Dado1(56));
         casillas.set(57, new CasillaCalavera(58));
+        casillas.set(18, new CasillaPosada(19));
     }
 
     /**
