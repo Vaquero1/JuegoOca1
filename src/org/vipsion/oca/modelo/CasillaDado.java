@@ -21,4 +21,13 @@ public class CasillaDado  extends Casilla{
         turnoextra=1;
         ficha.setTurnosExtra(turnoextra);
     }
+   
+   public int getPosicion(){
+       return posicion;
+   }
+   
+   public void setPosicion(int posicion){
+       this.posicion=posicion;
+       
+   }
 }
